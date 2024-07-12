@@ -1,0 +1,1178 @@
+@import "_obnul.scss";
+
+//--------------------шапка----------------------
+
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    background-color: #064BB4;
+}
+.header__conteiner {
+    display: flex;
+    justify-content: space-between;
+    min-height: 86px;
+    align-items: center;
+    .header__logo {
+        display: flex;
+        align-items: center;
+        line-height: 1.5rem ;
+        color: #FFFFFF ;
+        .Bulk {
+            font-weight: 600;
+            padding-left: 10px;
+        }
+        .ing {
+            font-weight: 400;
+        }
+       
+    
+    }
+        
+.header__menu {
+
+    display: flex;
+    .menu {
+        padding: 5px 0;
+    
+    }
+    .menu__list {
+    
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height:  1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu__item1 {
+        display: flex; 
+        .menu__link {
+            display: flex;
+            align-items: end;
+            color: #FFFFFF;
+        }
+         .HomeDOT{
+            position: relative;
+            left: 50%;
+            
+            height: 0.5rem;
+            width: 0.5rem;
+            border-radius: 50%;
+            background-color: #BCFF5E;
+            z-index: -1;
+            
+        }
+    }
+    .menu__item2 {
+        display: flex;
+        
+        margin: 0rem 0rem 0rem 2.6835rem;
+    }
+    .menu__item3{
+        display: flex;
+        
+        margin: 0rem 0rem 0rem 2.6835rem;}
+    .menu__item4{
+        display: flex;
+        
+        margin: 0rem 0rem 0rem 2.6835rem;}
+    .menu__item5 {
+        display: flex;
+        
+        margin: 0rem 0rem 0rem 2.6835rem;}
+    
+    .menu__link1 {
+        color: #FFFFFF;
+        opacity: 56%;
+    }
+    }
+   
+.shopLogInSignUP__{
+    
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    flex-wrap: wrap;
+    line-height:  1.5rem;
+    .headerButton__shop {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        .telegaDOT{
+            position: relative;
+            top: -15%;
+            right: -85%;
+            height: 0.75rem;
+            width: 0.75rem;
+            border-radius: 50%;
+            background-color: #FF4747;
+        }
+    }
+    
+    
+    
+    
+    .headerlogIN__ {
+        border: 1px solid white;
+        width: 5.1875rem;
+        height: 2.875rem;
+        border-radius: 1.25rem;
+        cursor: pointer;
+        background-color: #064BB4; 
+        line-height:  137%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+        
+    }
+    
+    .headerlogIN__ref {
+        font-weight: 500;
+        color: #FFFFFF;
+        background-color: #064BB4;
+    }
+    .HeaderSignUP__ {
+        width: 5.1875rem;
+        height: 2.875rem;
+        border-radius: 1.25rem;
+        background-color: #BCFF5E;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .HeaderSignUP__ref {
+        color: #1C1C1E;
+        font-weight: 500;
+    }
+
+}
+
+
+}
+
+//----------------------ПЕРВЫЙ СИНИЙ БЛОК----------------------------
+.main{
+    
+    flex: 1 1 auto;
+
+    .blueback{
+        display: flex;
+
+       
+        margin-top: 86px;
+        max-width: 100%;
+        background-color: #064BB4;
+        .conteiner__forBlueback{
+            
+            
+            min-height: 1234px;
+            max-width: 1200px;
+            
+            
+
+
+        }
+        .conteiner__forBlueback__ofrLEFRITE{
+            display: flex;
+            
+        }
+        .left__contentBox {
+           
+            
+            display: flex;
+            width: 70%;
+            min-width: 616px;
+            height: 444px;
+           
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 3rem;
+           
+            .Bigtext{
+                
+                
+                font-weight: 400;
+                font-size: 72px;
+                color: #FFFFFF;
+
+            }
+            .bigtext__1{
+               
+                
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 72px;
+            }
+            
+            .smalText {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #C7C7CC;
+            }
+            .text__onButton {
+                width: 176px;
+                height: 56px;
+                border-radius: 20px;
+                background-color: #BCFF5E;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 3rem;
+                button{
+                    background-color: #BCFF5E;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+       
+    } 
+    .rite__contentBox {
+        
+        display: flex;
+        
+        
+        
+       
+        .Img__Man {
+            
+
+            
+            background-image: url("image 6.png");
+            background-size: no-repeat;
+            background-position: top;
+            background-size: cover;
+            width: 824px;
+            height: 949px;
+           
+        }
+       
+        .i1st__Ellipse{display: none; } 
+         
+         .i2nd__Ellipse {
+            display: none;           
+         }
+         .Muscle__Rate {
+         }
+         .Heart__Rate {
+         }
+    }
+}
+
+.supported__logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 493px;
+    height: 78px;
+    gap: 24xp;
+    margin-bottom: 120px;
+    span{
+        display: flex;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5%;
+
+
+    }
+    .supported__logos__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nike__logo {
+        opacity: 64%;
+    }
+    .esprit__logo {
+        opacity: 64%;
+    }
+    .apple__logo {
+        opacity: 64%;
+    }
+    .nb__logo {
+        opacity: 64%;
+    }
+}
+
+
+
+.flexUnderman {
+   
+    display: flex;
+
+   
+
+    background-color: #064BB4;
+    max-height:278px ;
+}
+.flexUnderman__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    
+  
+}
+    
+
+.columnUnder__Man {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    min-width: 873px;
+    height: 278px;
+    
+   
+  
+    .imgforTable__underMANimg{
+       
+        width: 48px;
+        height: 48px;
+
+    }
+}
+.personalTraining__Block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-direction: column;
+    span{
+        display: flex;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .tableP{
+        display: flex;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+  
+}
+    
+
+
+.WorkoutPrograms__Block {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #BCFF5E;
+    span{
+        display: flex;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .tableP{
+        display: flex;
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+    .butt__learnmore2{
+        img{
+            display: flex;
+            width: 20px;
+            height: 20px;
+            
+            background-color:#BCFF5E;
+
+        }
+    }
+    
+    
+}
+.ProgramDiet__Block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    span{
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+    .tableP{
+        display: flex;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+    
+}
+.personalTraining__BlockLearn {
+    display: flex;
+    flex-direction: row ;
+    width: 98px;
+    height:22px;
+    .butt__learnmore {
+        img {display: flex;
+            width: 20px;
+            height: 20px;
+            
+            background-color: #FFFFFF;
+
+        }
+        
+        }
+        .Learn{
+            display: flex;
+            
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    
+}
+.trainingProgramUnder__Man {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .trainingProgramUnder__Mantext1 {
+        display: flex;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .trainingProgramUnder__Mantext2 {
+        display: flex;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5%;
+        color: #D1D1D6;
+    }
+}
+
+.offers {
+    background-color: #F9F9FB;
+    display: flex;
+    height: 1680px;
+    .offers_conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .WeOffer__Text{
+            display: flex;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 56px;
+
+
+        }
+        .JOIN__BUTTON{
+            margin-top: 50px;
+            display: flex;
+            width:150px ;
+            height: 56px;
+            
+        border-radius: 1.25rem;
+        background-color: #BCFF5E;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            background-color: #BCFF5E;
+        }
+
+        }
+        .IMG__BIG{
+            width: 631px;
+            height: 521px;
+            display: flex;
+        }
+        
+    }
+    .Crushanystrength__block {
+
+        display: flex;
+        flex-direction: row-reverse;
+        
+        
+        .container__forlist{
+            display: flex;
+            flex-direction: column;
+            margin-right: 55px;
+            width: 521px;
+            height: 576px;
+            border-radius: 20px;
+            padding: 32px 40px 32px 40px;
+            background-color: #FFFFFF;
+            ul{
+                color: #1C1C1E;
+
+            }
+            .polosca{
+                
+                
+               
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 0.0625rem;
+                width: 308px;
+                background-color: rgba(233, 235, 237, 1) ;
+                
+                .dotFor__line1 {
+                    display: flex;
+                    width: 0.312rem;
+                    height: 0.312rem;
+                    background-color: rgba(233, 235, 237, 1);
+                    border-radius: 50%;
+                
+                }
+                .dotFor__line2 {
+                    display: flex;
+                    width: 0.312rem;
+                    height: 0.312rem;
+                    background-color: rgba(233, 235, 237, 1);
+                    border-radius: 50%;
+                
+                }
+            }
+        }
+       
+    }
+    .bicep__img {
+        display: flex;
+        width: 48px;
+        height: 48px;
+    }
+    .textBig__Crushanystrength {
+        display: flex;
+        color: #1C1C1E;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Crushanystrength__list {
+        display: flex;
+        li{
+            display: flex;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+    }
+   
+    .Crushanystrength__blockIMG {
+
+    }
+    .Beguidedeverystep__block {
+        display: flex;
+        flex-direction: row;
+        
+        .container__forlist2{
+
+            display: flex;
+            flex-direction: column;
+            
+
+            width: 521px;
+            height: 576px;
+            border-radius: 20px;
+            padding: 32px 40px 32px 40px;
+            background-color: #FFFFFF;
+            ul{
+                color: #1C1C1E;
+
+            }
+            .polosca{
+                
+                justify-self: center;
+                align-self: center;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 0.0625rem;
+                width: 308px;
+                background-color: rgba(233, 235, 237, 1) ;
+                
+                .dotFor__line1 {
+                    display: flex;
+                    width: 0.312rem;
+                    height: 0.312rem;
+                    background-color: rgba(233, 235, 237, 1);
+                    border-radius: 50%;
+                
+                }
+                .dotFor__line2 {
+                    display: flex;
+                    width: 0.312rem;
+                    height: 0.312rem;
+                    background-color: rgba(233, 235, 237, 1);
+                    border-radius: 50%;
+                
+                }
+            }
+        }
+    }
+    .Beguidedeverystep__blockIMG {
+    }
+    .textBig__Beguidedeverystep {
+        display: flex;
+        color: #1C1C1E;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Beguidedeverystep__list {
+        display: flex;
+        li{
+            display: flex;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.price__plans {
+    background-color: #F9F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 843px;
+    justify-content: space-around;
+
+    .Membership__Button {
+        border: 1px solid #1C1C1E;
+        width: 116px;
+        height: 38px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #FFFFFF; 
+        line-height:  137%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       button{
+        color: #064BB4;
+        background-color: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+
+       }
+    }
+    .titlePrice__plans {
+        display: flex;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+
+    }
+    .threBlocks__withprice {
+        display: flex;
+        justify-content: space-around;
+
+        .FreePlan {
+
+            display: flex;
+            flex-direction: column;
+           
+           justify-content: center;
+           align-items: center;
+           justify-content: space-around;
+            background-color: #FFFFFF;
+            width: 320px;
+            height: 410px;
+            border-radius: 24px;
+
+            span{
+                display: flex;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #064BB4;
+                letter-spacing: 0.5%;
+            }
+            .priceFree {
+                display: flex;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                color: #1C1C1E;
+                letter-spacing: 0.5%;
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #AEAEB2;
+                    letter-spacing: 0.5%;
+                }
+               
+            }
+        }
+       
+        .Plan__list {
+            
+
+            
+            
+
+        }
+        .buttonPlan {
+            
+            width: 240px;
+            height: 46px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: #BCFF5E; 
+            line-height:  137%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           button{
+            background-color: #BCFF5E;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+    
+           }
+
+        }
+        .BasicPlan {
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            background-color:#064BB4;
+            width: 320px;
+            height: 410px;
+            border-radius: 20px;
+            span{
+                display: flex;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+                letter-spacing: 0.5%;
+            }
+            .Plan__list{
+                color: #FFFFFF;
+               }
+
+        .priceBasic {
+            display: flex;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+            letter-spacing: 0.5%;
+            p{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #AEAEB2;
+                letter-spacing: 0.5%;
+            }
+          
+        }
+        }
+        
+        .ProfessionalPlan {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            background-color:#FFFFFF;
+            width: 320px;
+            height: 410px;
+            border-radius: 20px;
+            span{
+                display: flex;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #064BB4;
+                letter-spacing: 0.5%;
+            }
+
+            .priceProfessional {
+                display: flex;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                color: #1C1C1E;
+                letter-spacing: 0.5%;
+                p{
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #AEAEB2;
+                    letter-spacing: 0.5%;
+                }
+            }
+        }
+        
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.DiscoverYourPotential__part {
+    background-color: #064BB4;
+    display: flex;
+    min-height: 305px;
+    
+
+    .DiscoverYourPotential__{
+        
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        justify-content: space-between;
+        
+    }
+    .DiscoverYourPotential__cnt1{
+        
+        display: flex;
+        flex-direction: column;
+        
+       
+        max-height: 144px;
+        min-width: 740px;
+    }
+}
+.DiscoverYourPotential__text1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    
+}
+
+.DiscoverYourPotential__text2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #C7C7CC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.DiscoverYourPotential__Button {
+    width: 10.625rem;
+    height: 3.5rem;
+    border-radius: 1.25rem;
+    background-color: #BCFF5E;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        font-weight: 500;
+        line-height: 24px;
+       font-size: 16px;
+        background-color: #BCFF5E;
+    }
+
+}
+    
+
+
+
+
+//-------ПОДВАЛ---------
+.footer{
+    display: flex;
+    bottom: 0; /* Фиксация снизу */
+    left: 0; /* К началу слева */
+    right: 0; /* Без отступов справа */
+    height: 408px; /* Задаем высоту */
+   
+    justify-content: space-between;
+   
+   
+    background-color: #08172D;
+    
+   
+}
+.footer__conteiner{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction:column ;
+    min-height: 408px;
+    max-height: 1200px;
+    .footer__container__1{
+        max-width: 1200px;
+        display: flex;    
+      
+        justify-content: space-between;
+        margin-top: 120px;
+        
+        
+         .footer__logo {
+            display: flex;
+           
+            line-height: 1.5rem ;
+            color: #FFFFFF ;
+            span{
+                display: flex;
+                align-items: center;
+            }
+            .Bulk {
+                font-weight: 600;
+                padding-left:0,625rem ;
+            }
+            .ing {
+                font-weight: 400;
+            }
+            img{
+              
+            }
+            padding-bottom: 0,625rem ;
+        
+        }
+        .undrLogo__text {
+       
+            display: flex;
+            align-items: end;
+            
+            font-weight: 400;
+            line-height: 1.5rem;
+            color: #AEAEB2;
+        }
+        .footerMenu__links {
+            display: flex;
+            
+            
+            
+            color:#C5C5C5 ;
+        }
+        .foter__menulist{
+            display: block;
+            
+            color:#C5C5C5 ;
+        
+        }
+        .footer__menuItem {
+           display: flex;
+           color:#C5C5C5 ;
+           margin-right: 2.5rem;
+          
+           
+        }
+    
+     .text__fornws {
+        
+        
+        span{
+    
+            display: flex;
+            justify-content: top;
+            color: #8E8E93;
+            font-weight: 500;
+            line-height: 1.5rem;
+            margin-bottom: 1.562rem;
+        }
+    
+        .text__fornwsText{
+            
+        }
+    
+    }
+    
+     .firstPart__list{
+        display: flex;
+        margin-bottom: 3rem;
+        
+    }
+    .secondPart__list{
+    
+        display: flex;
+        justify-content: center;
+        
+        
+        
+    }
+    .Buttons__footer{
+       
+        display: flex;
+       
+    }
+    .text__Email {
+       
+        width: 15.4375rem;
+        height: 3.5rem;
+        border-radius: 1.25rem;
+        background-color:#FFFFFF;
+        display: flex;
+        justify-content: top;
+        align-items: center;
+        margin-right: 1rem;
+        line-height:  1.5rem;
+        .enter__Email{
+           
+            display: flex;
+            color:black;
+            margin-left: 1.5rem;
+            font-weight: 400;
+            
+        }
+       
+    }
+    .buton_Send {
+        width: 6.43rem;
+        height: 3.5rem;
+        border-radius: 1.25rem;
+        background-color:#BCFF5E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        line-height:  1.5rem;
+        .buton_Send__Mail{
+            color: #1C1C1E;
+            font-weight: 800;
+            background-color:#BCFF5E;
+        }
+    }
+    
+    }
+    .footerline{
+        margin-bottom: 1.25rem;
+        margin-top: 6.875rem;
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 0.0625rem;
+        width: 75rem;
+        background-color: rgba(233, 235, 237, 1) ;
+        
+        .dotFor__line1 {
+            display: flex;
+            width: 0.312rem;
+            height: 0.312rem;
+            background-color: rgba(233, 235, 237, 1);
+            border-radius: 50%;
+        
+        }
+        .dotFor__line2 {
+            display: flex;
+            width: 0.312rem;
+            height: 0.312rem;
+            background-color: rgba(233, 235, 237, 1);
+            border-radius: 50%;
+        
+        }
+    }
+    
+    
+    .footer__Lastblock {
+       
+        display: flex;
+        
+        justify-self: end;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        justify-self: end;
+        margin-bottom: 10px;
+      
+        
+        .year__Nguli {
+            display: flex;
+            font-weight: 400;
+            line-height: 1.5rem;
+        
+            color:#AEAEB2 ;
+         }
+         .social_media6 {
+    
+            display: flex;
+          
+            
+           
+            color: #FFFFFF;
+            .social_media{
+                margin-right: 0.62rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #8E8E93;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+            }
+            
+        }
+        .footer__Lastblock__text1 {
+    
+      
+            color: #8E8E93;
+            .span1{
+                margin-right: 1.25rem ;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
